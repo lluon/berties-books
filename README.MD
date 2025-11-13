@@ -70,16 +70,8 @@ berties_books/
 
 
 ## Tech Stack
-
 Node.js • Express • EJS • MySQL
 
 
 ## Author
-
 Llewelyn Fernandes — educational project.
-
-## To install and run:
-
-npm install
-node index.js
-
