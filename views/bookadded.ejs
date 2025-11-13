@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Book added- <%=shopData.shopName%> </title>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+  </head>
+  <body>
+
+    <h1>Book added to <%=shopData.shopName%></h1>
+    <p>this book has been added to database: </p>
+    <p><Strong>Name:</Strong><%= name %></p>
+    <p><Strong>Price: </Strong> £ <%= Number(price)toFixed(2) %></p>
+    
+    <p><a href="/books/list">Back to Book list</a></p>
+  </body>
+</html>
