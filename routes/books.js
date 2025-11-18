@@ -13,7 +13,7 @@ router.get('/search-result', function (req, res, next) {
     let sqlquery = "SELECT * FROM books WHERE name LIKE ?";
     let searchTerm = '%${keyword}%';
 
-    db.query(sqlquery,[searchTerm], (err,result)=> {
+    db.query(sqlquery,['%${keyword}%'], (err,result)=> {
         if (err) return next(err);
         res.render("list.ejs",{availableBooks:result})
     });
