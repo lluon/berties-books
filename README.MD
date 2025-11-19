@@ -32,26 +32,26 @@ Perfect teaching example for the Dynamic Web Development module.
 
 ## Project Structure
 
-berties_books/
-├── index.js                  # Entry point & app configuration
-├── routes/
-│   ├── main.js               # Home & about routes
-│   ├── users.js              # Registration routes
-│   └── books.js              # All book-related routes
-├── views/                    # EJS templates
-│   ├── index.ejs
-│   ├── about.ejs
-│   ├── register.ejs
-│   ├── search.ejs
-│   ├── list.ejs
-│   ├── addbook.ejs
-│   └── bookadded.ejs
+berties_books/<br>
+├── index.js              # Entry point & app configuration<br>
+├── routes/<br>
+│   ├── main.js           # Home & about routes<br>
+│   ├── users.js          # Registration routes<br>
+│   └── books.js          # All book-related routes<br>
+├── views/                # EJS templates<br>
+│   ├── index.ejs<br>
+│   ├── about.ejs<br>
+│   ├── register.ejs<br>
+│   ├── search.ejs<br>
+│   ├── list.ejs<br>
+│   ├── addbook.ejs<br>
+│   └── bookadded.ejs<br>
 ├── public/
-│   └── main.css              # Global stylesheet
-├── create_db.sql             # Database + user creation script
-├── insert_test_data.sql      # Sample book data
-├── package.json
-└── README.md
+│   └── main.css          # Global stylesheet<br>
+├── create_db.sql         # Database + user creation script<br>
+├── insert_test_data.sql  # Sample book data<br>
+├── package.json<br>
+└── README.md<br>
 
 ---
 ## Main Routes - Page updated: 18 November 2025
